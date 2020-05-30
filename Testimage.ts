@@ -67,7 +67,27 @@ namespace consolePrint {
         control.reset()
     }
 
+    //% block
+    export function autoLogRadio(): void {
 
+        radio.onReceivedString(function (receivedString: string) {
+            console.log(receivedString)
+        })
+
+        radio.onReceivedValue(function (name: string, value: number) {
+            console.log(name + "" + value)
+        })
+
+
+        radio.onReceivedNumber(function (receivedNumber: number) {
+            console.log("" + receivedNumber)
+        })
+
+
+
+
+
+    }
 
 
 
