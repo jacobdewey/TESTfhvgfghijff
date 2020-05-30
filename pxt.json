@@ -1,5 +1,5 @@
 {
-    "name": "testfhvgfghijff",
+    "name": "ConsolePrint",
     "version": "0.0.0",
     "description": "",
     "dependencies": {
@@ -8,11 +8,13 @@
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+        "Testimage.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "public": false,
-    "additionalFilePaths": []
+    "preferredEditor": "tsprj",
+    "installedVersion": "workspace:99eeb3e6-b46c-4f75-a212-69823529c23c"
 }
